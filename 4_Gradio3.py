@@ -9,5 +9,5 @@ with gr.Blocks() as demo:
     checkbox = gr.Checkbox(label='개인정보 사용에 동의하겠습니까?')
     output_checkbox = gr.Textbox(label='출력')
     checkbox.change(handle_checkbox, inputs=checkbox, outputs=output_checkbox)
-
+ 
 demo.launch()
