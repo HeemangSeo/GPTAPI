@@ -11,5 +11,5 @@ interface = gr.Interface(
     description='숫자 두 개를 입력하세요',
     flagging_mode="never" # flag를 하지 않음
 )
- 
+
 interface.launch()
